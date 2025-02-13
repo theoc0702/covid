@@ -1,0 +1,47 @@
+h5{
+    color:#9400D3;
+}
+
+h2 {
+    display: flex; /* Utilise le système de flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: auto; /* Retirer la hauteur fixe */
+    text-align: center; /* Aligne le texte au centre */
+    color: #9400D3;
+    margin-bottom: 10px; /* Réduire l'espace sous le h2 */
+}
+
+p {
+    display: flex; /* Utilise le système de flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: auto; /* Retirer la hauteur fixe */
+    text-align: center; /* Aligne le texte au centre */
+    margin-top: 0; /* Retirer l'espace au-dessus du paragraphe */
+    margin-bottom: 10px; /* Ajuster si nécessaire */
+}
+
+
+body{
+    background-color: #9400D3;
+}
+
+.card {
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour un effet élégant */
+    margin-bottom: 10px;
+  }
+  
+  .card-body {
+    padding: 1.5rem; /* Plus d'espace autour du contenu */
+  }
+  
+  h5.card-title {
+    color: #9400D3; /* Couleur du titre */
+  }
+  
+  p.card-text {
+    font-size: 0.9rem; /* Taille légèrement réduite pour le texte */
+  }
+  
